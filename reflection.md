@@ -13,23 +13,30 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+- I used Copilot to help me fix my code and find all the bugs. 
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+- How to change the code to make sure that the difficulty was changing according to the mode.
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+- The AI did not give any misleading answers. 
 
 ---
 
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
-- Describe at least one test you ran (manual or using pytest)  
+- I ran a unit test to test it
+- Describe at least one test you ran (manual or using pytest)
+- I made sure that where it was erring before was not erring anymore
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
+- I asked the AI for help in coming up with edge cases
 
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+- You might have to reload the browerser on top. 
 
 ---
 
@@ -37,5 +44,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  - I think asking it to help look for bugs
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+- That it can make a lot of mistakes and it need someone to check its logic.
